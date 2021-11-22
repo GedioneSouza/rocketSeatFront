@@ -1,0 +1,72 @@
+<!--
+    <table>
+
+    Prós
+    - Visualização de dados via linhas e colunas.
+    - Boa acessibilidade para leitura de dados
+
+    Contras
+    - Pouco flexível
+    - Precisa de estilização para melhor visualização
+
+    Não usar
+    - Para criar seu layout
+-->
+
+<table>
+    <tr>
+        <!--TAG LINHA-->
+        <th>Nome</th>
+        <th>Idade</th>
+        <!--TAG CABEÇALHO-->
+    </tr>
+    <tr>
+        <td>Mayk</td>
+        <!--TAG DE CONTEÚDO DA LINHA-->
+        <td>35</td>
+    </tr>
+    <tr>
+        <td>Diego</td>
+        <td>25</td>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+
+
+
+<!--MELHORANDO  A TABLE-->
+
+<table>
+
+    <caption>Pessoas por idade</caption> <!--TAG QUE VAI DESCREVER O QUE A TABELA ESTÁ FAZENDO-->
+
+    <thead> <!--PARA FAZER A DIVISÃO, O CORRETO DE COLOCAR O CABEÇALHO É NA <thead>-->
+        <tr>
+            <!--TAG LINHA-->
+            <th>Nome</th>
+            <th>Idade</th>
+            <!--TAG CABEÇALHO-->
+        </tr>
+    </thead>
+
+    <tbody> <!--O CORRETO DO CONTEÚDO É ESTAR DENTRO DO CORPO NA <tbody>-->
+        <tr>
+            <td>Mayk</td>
+            <!--TAG DE CONTEÚDO DA LINHA-->
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+
+    <tfoot> <!--tag PARA SER UTILIZADA COMO O RODAPÉ-->
+        <tr>
+            <td>Total: </td>
+            <td>2 Pessoas</td>
+        </tr>
+    </tfoot>
+</table>
